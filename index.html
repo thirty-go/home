@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Link Hardware and Software">
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <!-- Theme: Simple (latest v0.x.x) -->
+  <!-- <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/buble.css" , title="buble" disabled> -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
+
+</head>
+
+<body>
+  <div id="app"></div>
+  <script>
+    // Docsify Configuration
+    window.$docsify = {
+      name: 'Thirty-Go Home',
+      repo: 'https://github.com/thirty-go',
+      coverpage: true,
+      loadSidebar: true,
+      autoHeader: false,
+      subMaxLevel: 2,
+      loadNavbar: true,
+      auto2top: true,
+      pagination: {
+        previousText: 'PREVIOUS',
+        nextText: 'NEXT',
+        crossChapter: true,
+        crossChapterText: true,
+      },
+    }
+  </script>
+
+  <!-- L1. Docsify Plugins -->
+  <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/emoji.min.js"></script>
+  <script src="https://unpkg.com/docsify-themeable"></script>
+  <script src="https://unpkg.com/docsify/lib/plugins/search.js"></script>
+  <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+  <!-- <script src="https://unpkg.com/docsify-copy-code"></script> -->
+  <script src="//unpkg.com/docsify-comment/dist/docsify-comment.min.js"></script>
+
+  <!-- L2. docsify-katex: to support Latex -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-katex@latest/dist/docsify-katex.js"></script>
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css" />
+
+  <!-- L2. Gitalk: a comment component -->
+  <link rel="stylesheet" href="//unpkg.com/gitalk/dist/gitalk.css">
+  <script src="//unpkg.com/docsify/lib/plugins/gitalk.min.js"></script>
+  <script src="//unpkg.com/gitalk/dist/gitalk.min.js"></script>
+  <script>
+    const gitalk = new Gitalk({
+      clientID: 'b7b4a95124fec6d6c600',
+      clientSecret: '96b08be89a43f8cdbd0d93d22330cfb72c10a395',
+      repo: 'WorkNotes',
+      owner: 'LinkHS',
+      admin: ['LinkHS'],
+      // facebook-like distraction free mode
+      distractionFreeMode: false
+    })
+  </script>
+</body>
+
+</html>
