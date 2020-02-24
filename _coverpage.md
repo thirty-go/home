@@ -1,3 +1,7 @@
+
+
+<img src="_coverpage.assets/logo.png" width="10%">
+
 # Who says you can't have life again? 
 
 > A delightfully positive group from Shanbei - :three::zero: :star2:

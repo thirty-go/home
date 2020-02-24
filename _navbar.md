@@ -1,1 +1,1 @@
-- [Home:cn:](/)
+- [Home  :cn:](README.md)

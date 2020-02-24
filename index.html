@@ -8,9 +8,10 @@
   <meta name="description" content="Link Hardware and Software">
   <meta name="viewport"
     content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/buble.css">
   <!-- Theme: Simple (latest v0.x.x) -->
-  <!-- <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/buble.css" , title="buble" disabled> -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
+  <!-- <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/buble.css" , title="buble" disabled>  -->
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css"> -->
 
 </head>
 
@@ -20,11 +21,13 @@
     // Docsify Configuration
     window.$docsify = {
       name: 'Thirty-Go Home',
+	  nameLink: '#/README',
       repo: 'https://github.com/thirty-go',
+	  
       coverpage: true,
-      loadSidebar: true,
+      loadSidebar: false,
       autoHeader: false,
-      subMaxLevel: 2,
+      subMaxLevel: 4,
       loadNavbar: true,
       auto2top: true,
       pagination: {
