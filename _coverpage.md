@@ -1,6 +1,6 @@
 
 
-<img src="_coverpage.assets/logo.png" width="10%">
+<img src="_coverpage.assets/logo.png" width="15%">
 
 # Who says you can't have life again? 
 
